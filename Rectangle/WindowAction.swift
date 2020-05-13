@@ -42,10 +42,11 @@ enum WindowAction: Int {
     moveUp = 27,
     moveDown = 28,
     almostMaximize = 29
+    lowerCenter = 30
     
     // Order matters here - it's used in the menu
     static let active = [leftHalf, rightHalf, topHalf, bottomHalf,
-                         topLeft, topRight, bottomLeft, bottomRight,
+                         topLeft, topRight, bottomLeft, bottomRight, lowerCenter,
                          firstThird, firstTwoThirds, centerThird, lastTwoThirds, lastThird,
                          maximize, almostMaximize, maximizeHeight, smaller, larger, center, restore,
                          nextDisplay, previousDisplay,
@@ -97,6 +98,7 @@ enum WindowAction: Int {
         case .moveUp: return "moveUp"
         case .moveDown: return "moveDown"
         case .almostMaximize: return "almostMaximize"
+        case .lowerCenter: return "lowerCenter"
         }
     }
 
@@ -183,6 +185,9 @@ enum WindowAction: Int {
         case .almostMaximize:
             key = "e57-QJ-6bL.title"
             value = "Almost Maximize"
+        case .lowerCenter:
+            key = "1Rc-Od-eP5.title"
+            value = "Lower Center"
         }
         
         return NSLocalizedString(key, tableName: "Main", value: value, comment: "")
@@ -251,6 +256,7 @@ enum WindowAction: Int {
         case .centerThird: return Shortcut( ctrl|alt, kVK_ANSI_F )
         case .lastTwoThirds: return Shortcut( ctrl|alt, kVK_ANSI_T )
         case .lastThird: return Shortcut( ctrl|alt, kVK_ANSI_G )
+        case .lowerCenter: return Shortcut( ctrl|alt, kVK_ANSI_M )
         default: return nil
         }
     }
@@ -283,6 +289,7 @@ enum WindowAction: Int {
         case .moveUp: return NSImage(imageLiteralResourceName: "moveUpTemplate")
         case .moveDown: return NSImage(imageLiteralResourceName: "moveDownTemplate")
         case .almostMaximize: return NSImage(imageLiteralResourceName: "almostMaximizeTemplate")
+        case .lowerCenter: return NSImage(imageLiteralResourceName: "moveDownTemplate")
         }
     }
     
@@ -336,6 +343,7 @@ enum SubWindowAction {
         case .bottomThird: return .top
         case .topTwoThirds: return .bottom
         case .bottomTwoThirds: return .top
+        case .lowerCenter: return [.left, .right, .top]
         }
     }
 }

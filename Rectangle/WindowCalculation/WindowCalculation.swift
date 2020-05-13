@@ -101,6 +101,7 @@ class WindowCalculationFactory {
     let moveUpCalculation = MoveUpCalculation()
     let moveDownCalculation = MoveDownCalculation()
     let almostMaximizeCalculation = AlmostMaximizeCalculation()
+    let lowerCenterCalculation = LowerCenterCalculation()
     
     func calculation(for action: WindowAction) -> WindowCalculation? {
         
@@ -130,6 +131,7 @@ class WindowCalculationFactory {
         case .moveUp: return moveUpCalculation
         case .moveDown: return moveDownCalculation
         case .almostMaximize: return almostMaximizeCalculation
+        case .lowerCenter: return lowerCenterCalculation
         default: return nil
         }
     }

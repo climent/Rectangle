@@ -48,6 +48,8 @@ class PrefsViewController: NSViewController {
     @IBOutlet weak var moveDownShortcutView: MASShortcutView!
     
     @IBOutlet weak var almostMaximizeShortcutView: MASShortcutView!
+
+    @IBOutlet weak var centerLowerShortcutView: MASSShorcutView!
     
     // Settings
     override func awakeFromNib() {
@@ -79,6 +81,7 @@ class PrefsViewController: NSViewController {
             .moveUp: moveUpShortcutView,
             .moveDown: moveDownShortcutView,
             .almostMaximize: almostMaximizeShortcutView
+            .lowerCenter: lowerCenterShortcutView
         ]
         
         for (action, view) in actionsToViews {
