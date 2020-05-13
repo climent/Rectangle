@@ -789,20 +789,20 @@
             <objects>
                 <viewController storyboardIdentifier="PrefsViewController" showSeguePresentationStyle="single" id="zlF-FD-XEr" customClass="PrefsViewController" customModule="Rectangle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="8J7-VI-pmF">
-                        <rect key="frame" x="0.0" y="0.0" width="720" height="395"/>
+                        <rect key="frame" x="0.0" y="0.0" width="711" height="427"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="HUP-ob-5lz">
-                                <rect key="frame" x="0.0" y="0.0" width="720" height="395"/>
+                                <rect key="frame" x="0.0" y="0.0" width="711" height="427"/>
                                 <subviews>
                                     <stackView distribution="fill" orientation="vertical" alignment="trailing" spacing="7" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gt6-OD-H04">
-                                        <rect key="frame" x="20" y="20" width="327" height="355"/>
+                                        <rect key="frame" x="20" y="20" width="319" height="387"/>
                                         <subviews>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-2T-B9P">
-                                                <rect key="frame" x="68" y="336" width="259" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-2T-B9P">
+                                                <rect key="frame" x="60" y="362" width="259" height="25"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ce1-6G-Nkf">
-                                                        <rect key="frame" x="0.0" y="2" width="81" height="16"/>
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ce1-6G-Nkf">
+                                                        <rect key="frame" x="0.0" y="5" width="81" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oac-MY-1n1">
                                                                 <rect key="frame" x="-2" y="0.0" width="56" height="16"/>
@@ -830,8 +830,8 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="bGP-y9-ToI" customClass="MASShortcutView">
-                                                        <rect key="frame" x="99" y="0.0" width="160" height="19"/>
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGP-y9-ToI" customClass="MASShortcutView">
+                                                        <rect key="frame" x="99" y="3" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="HHy-nL-j7h"/>
                                                             <constraint firstAttribute="width" constant="160" id="g6q-pY-eGi"/>
@@ -847,10 +847,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzQ-m9-MoW">
-                                                <rect key="frame" x="60" y="310" width="267" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzQ-m9-MoW">
+                                                <rect key="frame" x="52" y="336" width="267" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MN2-Yv-nag">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MN2-Yv-nag">
                                                         <rect key="frame" x="0.0" y="2" width="89" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="daG-bl-Dca">
@@ -879,7 +879,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="DJc-yE-qoJ" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DJc-yE-qoJ" customClass="MASShortcutView">
                                                         <rect key="frame" x="107" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="gbX-O0-CQo"/>
@@ -896,10 +896,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZI-sV-QY7">
-                                                <rect key="frame" x="69" y="284" width="258" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZI-sV-QY7">
+                                                <rect key="frame" x="61" y="310" width="258" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Us6-9p-1W0">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Us6-9p-1W0">
                                                         <rect key="frame" x="0.0" y="2" width="80" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="j1Z-dN-QdR">
@@ -928,7 +928,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ppH-ve-v6N" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppH-ve-v6N" customClass="MASShortcutView">
                                                         <rect key="frame" x="98" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="CYP-H5-scH"/>
@@ -945,10 +945,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mG2-Ie-LGc">
-                                                <rect key="frame" x="47" y="258" width="280" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mG2-Ie-LGc">
+                                                <rect key="frame" x="39" y="284" width="280" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJh-ua-m5c">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJh-ua-m5c">
                                                         <rect key="frame" x="0.0" y="2" width="102" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xwW-KA-j8t">
@@ -977,7 +977,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="EhR-CV-u8d" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EhR-CV-u8d" customClass="MASShortcutView">
                                                         <rect key="frame" x="120" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="QPA-YK-9mN"/>
@@ -994,17 +994,17 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12W-gY-FHp">
-                                                <rect key="frame" x="145" y="246" width="182" height="5"/>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12W-gY-FHp">
+                                                <rect key="frame" x="137" y="272" width="182" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="lTi-x2-WTD"/>
                                                     <constraint firstAttribute="width" constant="182" id="xZH-Ps-oFE"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSC-UJ-fXz">
-                                                <rect key="frame" x="70" y="220" width="257" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSC-UJ-fXz">
+                                                <rect key="frame" x="62" y="246" width="257" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2uc-Nz-b1g">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2uc-Nz-b1g">
                                                         <rect key="frame" x="0.0" y="2" width="79" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-k8-IOz">
@@ -1033,7 +1033,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="XIn-7Q-Fuy" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XIn-7Q-Fuy" customClass="MASShortcutView">
                                                         <rect key="frame" x="97" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="L6q-We-uRa"/>
@@ -1050,10 +1050,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hng-5H-ol0">
-                                                <rect key="frame" x="62" y="194" width="265" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hng-5H-ol0">
+                                                <rect key="frame" x="54" y="220" width="265" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDT-ZP-q5C">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDT-ZP-q5C">
                                                         <rect key="frame" x="0.0" y="2" width="87" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZHg-2r-X9K">
@@ -1082,7 +1082,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="OgW-L0-nuS" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-L0-nuS" customClass="MASShortcutView">
                                                         <rect key="frame" x="105" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="FKY-cN-MnA"/>
@@ -1099,10 +1099,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdR-hP-Tpn">
-                                                <rect key="frame" x="48" y="168" width="279" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdR-hP-Tpn">
+                                                <rect key="frame" x="40" y="194" width="279" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfy-3f-KPI">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfy-3f-KPI">
                                                         <rect key="frame" x="0.0" y="2" width="101" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QBW-Z2-1Xz">
@@ -1131,7 +1131,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="whf-FK-Ywl" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whf-FK-Ywl" customClass="MASShortcutView">
                                                         <rect key="frame" x="119" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="V1a-Mu-hJH"/>
@@ -1148,10 +1148,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dG-4f-nfF">
-                                                <rect key="frame" x="40" y="142" width="287" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0dG-4f-nfF">
+                                                <rect key="frame" x="32" y="168" width="287" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quG-Lk-ueq">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quG-Lk-ueq">
                                                         <rect key="frame" x="0.0" y="2" width="109" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EHe-Oa-YEU">
@@ -1180,7 +1180,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="wi5-BQ-zY2" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wi5-BQ-zY2" customClass="MASShortcutView">
                                                         <rect key="frame" x="127" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="PXT-Bz-cXI"/>
@@ -1197,17 +1197,66 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3kB-KX-eMQ">
-                                                <rect key="frame" x="145" y="130" width="182" height="5"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ftA-Tn-eng">
+                                                <rect key="frame" x="31" y="142" width="288" height="19"/>
+                                                <subviews>
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esN-OS-Nid">
+                                                        <rect key="frame" x="0.0" y="2" width="110" height="16"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h43-Mf-3Zn">
+                                                                <rect key="frame" x="-2" y="0.0" width="85" height="16"/>
+                                                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Lower Center" id="jxZ-gP-WKH">
+                                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rx9-EP-JxI">
+                                                                <rect key="frame" x="89" y="1" width="21" height="14"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="21" id="6cp-gz-XvG"/>
+                                                                    <constraint firstAttribute="height" constant="14" id="TGk-Cb-vBD"/>
+                                                                </constraints>
+                                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="moveDownTemplate" id="oK7-Sl-Q7v"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <visibilityPriorities>
+                                                            <integer value="1000"/>
+                                                            <integer value="1000"/>
+                                                        </visibilityPriorities>
+                                                        <customSpacing>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                            <real value="3.4028234663852886e+38"/>
+                                                        </customSpacing>
+                                                    </stackView>
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sh4-wH-nWC" userLabel="Lower Center Shortcut View" customClass="MASShortcutView">
+                                                        <rect key="frame" x="128" y="0.0" width="160" height="19"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="160" id="ABd-zf-3GR"/>
+                                                            <constraint firstAttribute="height" constant="19" id="okc-2t-V2e"/>
+                                                        </constraints>
+                                                    </customView>
+                                                </subviews>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3kB-KX-eMQ">
+                                                <rect key="frame" x="137" y="130" width="182" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="lFF-ig-WLr"/>
                                                     <constraint firstAttribute="width" constant="182" id="wpN-17-BpH"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GgD-be-blq">
-                                                <rect key="frame" x="56" y="104" width="271" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GgD-be-blq">
+                                                <rect key="frame" x="48" y="104" width="271" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zjW-UX-cpn">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zjW-UX-cpn">
                                                         <rect key="frame" x="0.0" y="2" width="91" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ujE-rY-lCg">
@@ -1236,7 +1285,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="I3d-KP-y1J" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3d-KP-y1J" customClass="MASShortcutView">
                                                         <rect key="frame" x="111" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="6Q8-54-QyQ"/>
@@ -1253,10 +1302,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kgg-z8-TD6">
-                                                <rect key="frame" x="21" y="78" width="306" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kgg-z8-TD6">
+                                                <rect key="frame" x="13" y="78" width="306" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcG-kM-Fl9">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcG-kM-Fl9">
                                                         <rect key="frame" x="0.0" y="2" width="126" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dRO-bH-qbF">
@@ -1285,7 +1334,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="cLa-f6-RSt" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cLa-f6-RSt" customClass="MASShortcutView">
                                                         <rect key="frame" x="146" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="F1y-fr-HRS"/>
@@ -1302,10 +1351,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-YB-lLj">
-                                                <rect key="frame" x="42" y="52" width="285" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-YB-lLj">
+                                                <rect key="frame" x="34" y="52" width="285" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxe-q4-7yW">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxe-q4-7yW">
                                                         <rect key="frame" x="0.0" y="2" width="105" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DDI-Yz-vr6">
@@ -1334,7 +1383,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="G13-Q4-CV6" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G13-Q4-CV6" customClass="MASShortcutView">
                                                         <rect key="frame" x="125" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="4xq-rG-nKr"/>
@@ -1351,10 +1400,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEb-ZE-AIt">
-                                                <rect key="frame" x="22" y="26" width="305" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEb-ZE-AIt">
+                                                <rect key="frame" x="14" y="26" width="305" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Osf-zT-z4q">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Osf-zT-z4q">
                                                         <rect key="frame" x="0.0" y="2" width="125" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EGh-4z-I6I">
@@ -1383,7 +1432,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="7Km-ay-hPl" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Km-ay-hPl" customClass="MASShortcutView">
                                                         <rect key="frame" x="145" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="dfA-2A-xPS"/>
@@ -1400,10 +1449,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Y6-G9U">
-                                                <rect key="frame" x="57" y="0.0" width="270" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-Y6-G9U">
+                                                <rect key="frame" x="49" y="0.0" width="270" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="02U-1U-ZNS">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="02U-1U-ZNS">
                                                         <rect key="frame" x="0.0" y="2" width="90" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bod-Jy-fPb">
@@ -1432,7 +1481,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="MYy-5x-boe" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYy-5x-boe" customClass="MASShortcutView">
                                                         <rect key="frame" x="110" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="3I7-hv-MZL"/>
@@ -1469,8 +1518,10 @@
                                             <integer value="1000"/>
                                             <integer value="1000"/>
                                             <integer value="1000"/>
+                                            <integer value="1000"/>
                                         </visibilityPriorities>
                                         <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
                                             <real value="3.4028234663852886e+38"/>
                                             <real value="3.4028234663852886e+38"/>
                                             <real value="3.4028234663852886e+38"/>
@@ -1489,12 +1540,12 @@
                                         </customSpacing>
                                     </stackView>
                                     <stackView distribution="fill" orientation="vertical" alignment="trailing" spacing="7" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wDN-pM-8lR">
-                                        <rect key="frame" x="390" y="20" width="310" height="355"/>
+                                        <rect key="frame" x="381" y="20" width="310" height="387"/>
                                         <subviews>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Hd-CT-TxW">
-                                                <rect key="frame" x="46" y="336" width="264" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Hd-CT-TxW">
+                                                <rect key="frame" x="46" y="368" width="264" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGC-hg-6yl">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGC-hg-6yl">
                                                         <rect key="frame" x="0.0" y="2" width="86" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="71y-S7-PEN">
@@ -1523,7 +1574,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="SqN-WJ-u3L" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SqN-WJ-u3L" customClass="MASShortcutView">
                                                         <rect key="frame" x="104" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="YVB-GF-OOD"/>
@@ -1540,10 +1591,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVb-UL-NJE">
-                                                <rect key="frame" x="0.0" y="310" width="310" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVb-UL-NJE">
+                                                <rect key="frame" x="0.0" y="342" width="310" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-9D-G3q">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-9D-G3q">
                                                         <rect key="frame" x="0.0" y="2" width="132" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O5c-1u-Brt">
@@ -1572,7 +1623,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="WOL-Ei-P6G" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WOL-Ei-P6G" customClass="MASShortcutView">
                                                         <rect key="frame" x="150" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="69s-IR-1dm"/>
@@ -1589,10 +1640,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRK-l3-f6q">
-                                                <rect key="frame" x="2" y="284" width="308" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aRK-l3-f6q">
+                                                <rect key="frame" x="2" y="316" width="308" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVf-QY-tqC">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVf-QY-tqC">
                                                         <rect key="frame" x="0.0" y="2" width="130" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="G6i-Or-FfE">
@@ -1621,7 +1672,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="0L5-5g-6s0" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0L5-5g-6s0" customClass="MASShortcutView">
                                                         <rect key="frame" x="148" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="oPS-P2-srV"/>
@@ -1638,10 +1689,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nLL-Xs-VHA">
-                                                <rect key="frame" x="21" y="258" width="289" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nLL-Xs-VHA">
+                                                <rect key="frame" x="21" y="290" width="289" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6f-24-Eit">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E6f-24-Eit">
                                                         <rect key="frame" x="0.0" y="2" width="111" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QmV-Ew-OQp">
@@ -1670,7 +1721,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="yrl-Hc-jn1" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yrl-Hc-jn1" customClass="MASShortcutView">
                                                         <rect key="frame" x="129" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="31I-cC-V5H"/>
@@ -1687,10 +1738,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POP-uw-KpE">
-                                                <rect key="frame" x="27" y="232" width="283" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POP-uw-KpE">
+                                                <rect key="frame" x="27" y="264" width="283" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="br5-Mn-jM0">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="br5-Mn-jM0">
                                                         <rect key="frame" x="0.0" y="2" width="105" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uM4-fm-qWP">
@@ -1719,7 +1770,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Oab-Yb-TxI" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oab-Yb-TxI" customClass="MASShortcutView">
                                                         <rect key="frame" x="123" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="O6Q-LT-YZV"/>
@@ -1736,10 +1787,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPO-Zc-MBX">
-                                                <rect key="frame" x="62" y="206" width="248" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPO-Zc-MBX">
+                                                <rect key="frame" x="62" y="238" width="248" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-WX-MxB">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-WX-MxB">
                                                         <rect key="frame" x="0.0" y="2" width="70" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vFY-Bb-fYR">
@@ -1768,7 +1819,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="WrB-f6-rnc" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WrB-f6-rnc" customClass="MASShortcutView">
                                                         <rect key="frame" x="88" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="7rp-wt-YNO"/>
@@ -1785,10 +1836,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G0A-5v-FZT">
-                                                <rect key="frame" x="56" y="180" width="254" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G0A-5v-FZT">
+                                                <rect key="frame" x="56" y="212" width="254" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIs-zp-YfP">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIs-zp-YfP">
                                                         <rect key="frame" x="0.0" y="2" width="76" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DVN-Fh-ZlH">
@@ -1817,7 +1868,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="lej-Pz-wb0" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lej-Pz-wb0" customClass="MASShortcutView">
                                                         <rect key="frame" x="94" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="fkn-Kg-zlU"/>
@@ -1834,18 +1885,18 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dqh-Mk-l24">
-                                                <rect key="frame" x="128" y="168" width="182" height="5"/>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dqh-Mk-l24">
+                                                <rect key="frame" x="128" y="200" width="182" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="182" id="Mab-5D-Ck3"/>
                                                     <constraint firstAttribute="height" constant="5" id="Y0S-8q-of8"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NYl-g1-gHO">
-                                                <rect key="frame" x="27" y="142" width="283" height="19"/>
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NYl-g1-gHO">
+                                                <rect key="frame" x="27" y="142" width="283" height="51"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7V-QT-NjF">
-                                                        <rect key="frame" x="0.0" y="2" width="105" height="16"/>
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7V-QT-NjF">
+                                                        <rect key="frame" x="0.0" y="18" width="105" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ieo-Xi-OPd">
                                                                 <rect key="frame" x="-2" y="0.0" width="80" height="16"/>
@@ -1873,8 +1924,8 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Omo-F2-B0I" customClass="MASShortcutView">
-                                                        <rect key="frame" x="123" y="0.0" width="160" height="19"/>
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Omo-F2-B0I" customClass="MASShortcutView">
+                                                        <rect key="frame" x="123" y="16" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="Ftc-bL-dER"/>
                                                             <constraint firstAttribute="width" constant="160" id="PnY-87-ZpF"/>
@@ -1890,10 +1941,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWy-gq-tX3">
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="18" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWy-gq-tX3">
                                                 <rect key="frame" x="3" y="116" width="307" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-tj-Qx4">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8I-tj-Qx4">
                                                         <rect key="frame" x="0.0" y="2" width="129" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HXv-c3-Qyj">
@@ -1922,7 +1973,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="daM-hW-c6u" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="daM-hW-c6u" customClass="MASShortcutView">
                                                         <rect key="frame" x="147" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="LcG-CM-Hse"/>
@@ -1939,17 +1990,17 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zde-zC-Hp9">
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zde-zC-Hp9">
                                                 <rect key="frame" x="128" y="104" width="182" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="0ea-L9-Dxz"/>
                                                     <constraint firstAttribute="width" constant="182" id="HQk-e5-sgB"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ku-sN-43t">
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ku-sN-43t">
                                                 <rect key="frame" x="41" y="78" width="269" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nzY-kb-hBq">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nzY-kb-hBq">
                                                         <rect key="frame" x="0.0" y="2" width="89" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qe4-dZ-3cw">
@@ -1978,7 +2029,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="wqe-dP-72p" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqe-dP-72p" customClass="MASShortcutView">
                                                         <rect key="frame" x="109" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="17L-ij-gdb"/>
@@ -1995,10 +2046,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6f-Ug-bUW">
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6f-Ug-bUW">
                                                 <rect key="frame" x="33" y="52" width="277" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YuG-PK-sHB">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YuG-PK-sHB">
                                                         <rect key="frame" x="0.0" y="2" width="97" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="y9e-dj-00t">
@@ -2027,7 +2078,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ksl-60-1S2" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ksl-60-1S2" customClass="MASShortcutView">
                                                         <rect key="frame" x="117" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="JSg-uj-s3A"/>
@@ -2044,10 +2095,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Qa-C8-rbw">
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Qa-C8-rbw">
                                                 <rect key="frame" x="47" y="26" width="263" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GJ7-ha-Hpw">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GJ7-ha-Hpw">
                                                         <rect key="frame" x="0.0" y="2" width="83" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5eO-XA-d6k">
@@ -2076,7 +2127,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="POq-dE-gsa" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POq-dE-gsa" customClass="MASShortcutView">
                                                         <rect key="frame" x="103" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="2Pt-Bw-FEa"/>
@@ -2093,10 +2144,10 @@
                                                     <real value="3.4028234663852886e+38"/>
                                                 </customSpacing>
                                             </stackView>
-                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VLV-Cc-em4">
+                                            <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="20" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VLV-Cc-em4">
                                                 <rect key="frame" x="30" y="0.0" width="280" height="19"/>
                                                 <subviews>
-                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-Qz-1hL">
+                                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" ambiguous="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0d-Qz-1hL">
                                                         <rect key="frame" x="0.0" y="2" width="100" height="16"/>
                                                         <subviews>
                                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ItO-yj-ZjG">
@@ -2125,7 +2176,7 @@
                                                             <real value="3.4028234663852886e+38"/>
                                                         </customSpacing>
                                                     </stackView>
-                                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="nyf-lf-cNc" customClass="MASShortcutView">
+                                                    <customView ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nyf-lf-cNc" customClass="MASShortcutView">
                                                         <rect key="frame" x="120" y="0.0" width="160" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="160" id="EoF-fh-9EU"/>
@@ -2190,7 +2241,7 @@
                                     <constraint firstItem="gt6-OD-H04" firstAttribute="top" secondItem="HUP-ob-5lz" secondAttribute="top" constant="20" symbolic="YES" id="LTd-n7-ML0"/>
                                     <constraint firstAttribute="trailing" secondItem="wDN-pM-8lR" secondAttribute="trailing" constant="20" symbolic="YES" id="Le7-Sp-jyh"/>
                                     <constraint firstItem="gt6-OD-H04" firstAttribute="leading" secondItem="HUP-ob-5lz" secondAttribute="leading" multiplier="2" constant="20" symbolic="YES" id="VUL-yV-6VZ"/>
-                                    <constraint firstAttribute="height" constant="395" id="efX-jm-yWE"/>
+                                    <constraint firstAttribute="height" constant="427" id="efX-jm-yWE"/>
                                     <constraint firstAttribute="bottom" secondItem="wDN-pM-8lR" secondAttribute="bottom" constant="20" symbolic="YES" id="kbx-oK-lTl"/>
                                 </constraints>
                             </customView>
@@ -2214,6 +2265,7 @@
                         <outlet property="lastThirdShortcutView" destination="MYy-5x-boe" id="sKH-xT-Kwg"/>
                         <outlet property="lastTwoThirdsShortcutView" destination="7Km-ay-hPl" id="31d-uh-wZ2"/>
                         <outlet property="leftHalfShortcutView" destination="bGP-y9-ToI" id="XZG-TF-jqQ"/>
+                        <outlet property="lowerCenterShortcutView" destination="sh4-wH-nWC" id="uiF-9y-nTQ"/>
                         <outlet property="makeLargerShortcutView" destination="Oab-Yb-TxI" id="e6P-aI-4My"/>
                         <outlet property="makeSmallerShortcutView" destination="yrl-Hc-jn1" id="ZPy-F9-bUE"/>
                         <outlet property="maximizeHeightShortcutView" destination="0L5-5g-6s0" id="b6h-ZP-sM9"/>
@@ -2233,7 +2285,7 @@
                 </viewController>
                 <customObject id="BOw-l7-fkl" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-283" y="1338"/>
+            <point key="canvasLocation" x="-287.5" y="1353.5"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="b39-fJ-MZO">
