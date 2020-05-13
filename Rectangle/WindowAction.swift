@@ -41,9 +41,9 @@ enum WindowAction: Int {
     moveRight = 26,
     moveUp = 27,
     moveDown = 28,
-    almostMaximize = 29
+    almostMaximize = 29,
     lowerCenter = 30
-    
+
     // Order matters here - it's used in the menu
     static let active = [leftHalf, rightHalf, topHalf, bottomHalf,
                          topLeft, topRight, bottomLeft, bottomRight, lowerCenter,
@@ -324,6 +324,7 @@ enum SubWindowAction {
     rightThird,
     leftTwoThirds,
     rightTwoThirds,
+    lowerCenter,
     
     topThird,
     centerHorizontalThird,

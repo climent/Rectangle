@@ -43,6 +43,6 @@ class LowerCenterCalculation: WindowCalculation, RepeatedExecutionsCalculation {
         centerOneThirdRect.size.width = floor(visibleFrameOfScreen.width / 3.0)
        centerOneThirdRect.origin.x = visibleFrameOfScreen.minX + visibleFrameOfScreen.width - (centerOneThirdRect.width * 2)
         centerOneThirdRect.size.height = floor(visibleFrameOfScreen.height / 2.0)
-        return RectResult(oneThirdRect)
+        return RectResult(centerOneThirdRect)
     }
 }
