@@ -1,10 +1,15 @@
 # Rectangle
 
-![](https://github.com/rxhanson/Rectangle/workflows/Build/badge.svg)
+![](https://github.com/climent/Rectangle/workflows/Build/badge.svg)
 
 Rectangle is a window management app based on Spectacle, written in Swift.
 
 ![image](https://user-images.githubusercontent.com/13651296/71896594-7cdb9280-3154-11ea-83a7-70b71c6df9d4.png)
+
+## Before you continue reading...
+This fork of Rectangle is basically the result of "I had an itch and I decided to scratch it". One of the missing features of the original code was that it did not have a "center vertically" option, as I usually have my videoconferencing window with a size of ~0.5 the real state of my screen, but all the way to the bottom. So here it is, with 2 implementations, and probably I will have to clean it up and revert some of the changes and make it configurable so that you can just have it or not, all depending on if you want to have it or not.
+
+Right now you can use the shortcut with "lowerCenter" or cycle through with "almostMaximize".
 
 ## System Requirements
 Rectangle supports macOS v10.11+. If you're willing to test on earlier versions of macOS, this can be updated.
