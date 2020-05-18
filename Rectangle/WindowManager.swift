@@ -22,7 +22,6 @@ class WindowManager {
         self.windowHistory = windowHistory
         standardWindowMoverChain = [
             StandardWindowMover(),
-            // QuantizedWindowMover(), // This was used in Spectacle, but doesn't seem to help on any windows I've tried. It just makes some actions feel more jenky
             BestEffortWindowMover()
         ]
         
@@ -59,6 +58,7 @@ class WindowManager {
         
         guard let usableScreens = screens else {
             NSSound.beep()
+            Logger.log("Unable to obtain usable screens")
             return
         }
         
@@ -79,6 +79,7 @@ class WindowManager {
             || usableScreens.frameOfCurrentScreen.isNull
             || usableScreens.visibleFrameOfCurrentScreen.isNull {
             NSSound.beep()
+            Logger.log("Window is not snappable or usable screen is not valid")
             return
         }
 
@@ -89,6 +90,7 @@ class WindowManager {
         
         guard var calcResult = windowCalculation?.calculate(currentWindow, lastAction: lastRectangleAction, usableScreens: usableScreens, action: action) else {
             NSSound.beep()
+            Logger.log("Nil calculation result")
             return
         }
         
@@ -98,12 +100,13 @@ class WindowManager {
             calcResult.rect = GapCalculation.applyGaps(calcResult.rect, sharedEdges: gapSharedEdges, gapSize: gapSize)
         }
 
-        let newNormalizedRect = AccessibilityElement.normalizeCoordinatesOf(calcResult.rect, frameOfScreen: usableScreens.frameOfCurrentScreen)
-
-        if currentNormalizedRect.equalTo(newNormalizedRect) {
+        if currentNormalizedRect.equalTo(calcResult.rect) {
             NSSound.beep()
+            Logger.log("Current frame is equal to new frame")
             return
         }
+        
+        let newRect = AccessibilityElement.normalizeCoordinatesOf(calcResult.rect, frameOfScreen: usableScreens.frameOfCurrentScreen)
 
         let visibleFrameOfDestinationScreen = NSRectToCGRect(calcResult.screen.visibleFrame)
 
@@ -113,7 +116,7 @@ class WindowManager {
             : standardWindowMoverChain
 
         for windowMover in windowMoverChain {
-            windowMover.moveWindowRect(newNormalizedRect, frameOfScreen: usableScreens.frameOfCurrentScreen, visibleFrameOfScreen: visibleFrameOfDestinationScreen, frontmostWindowElement: frontmostWindowElement, action: action)
+            windowMover.moveWindowRect(newRect, frameOfScreen: usableScreens.frameOfCurrentScreen, visibleFrameOfScreen: visibleFrameOfDestinationScreen, frontmostWindowElement: frontmostWindowElement, action: action)
         }
 
         let resultingRect = frontmostWindowElement.rectOfElement()
@@ -141,7 +144,7 @@ class WindowManager {
                 }
             }
             
-            Logger.log("\(action.name) | display: \(visibleFrameOfDestinationScreen.debugDescription), calculatedRect: \(newNormalizedRect.debugDescription), resultRect: \(resultingRect.debugDescription)\(srcDestScreens)")
+            Logger.log("\(action.name) | display: \(visibleFrameOfDestinationScreen.debugDescription), calculatedRect: \(newRect.debugDescription), resultRect: \(resultingRect.debugDescription)\(srcDestScreens)")
         }
     }
 }
