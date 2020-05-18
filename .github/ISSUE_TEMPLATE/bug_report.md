@@ -9,3 +9,4 @@ assignees: ''
 
 macOS version:
 Rectangle version:
+logs (In Rectangle menu, hold option, "View Logging..."): 

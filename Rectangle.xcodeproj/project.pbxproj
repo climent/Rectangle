@@ -72,7 +72,8 @@
 		98D1441324560B1E0090C603 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D1441224560B1E0090C603 /* AlertUtil.swift */; };
 		98FA9497235A2D7600F95C4F /* RepeatedExecutionsCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA9496235A2D7600F95C4F /* RepeatedExecutionsCalculation.swift */; };
 		CC0B7937429AC28C21ABF5B4 /* Pods_RectangleLauncher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D8480CC730811C953FC1B6 /* Pods_RectangleLauncher.framework */; };
-		DB0C87EB246C7DB800E282C7 /* LowerCenterCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0C87EA246C7DB800E282C7 /* LowerCenterCalculation.swift */; };
+		DB0C87EB246C7DB800E282C7 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		DB796E292472E92D007E32CF /* LowerCenterCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB796E282472E92D007E32CF /* LowerCenterCalculation.swift */; };
 		F0A0DFB36FCC3FCE6E184500 /* Pods_Rectangle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A533B9F2D3215AC7B85D1F /* Pods_Rectangle.framework */; };
 /* End PBXBuildFile section */
 
@@ -205,9 +206,11 @@
 		98ED1C782393DF0900CD0955 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		98ED1C792393DF0900CD0955 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		98FA9496235A2D7600F95C4F /* RepeatedExecutionsCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedExecutionsCalculation.swift; sourceTree = "<group>"; };
-		C80E308019BEC7EF13E21838 /* Pods-RectangleLauncher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleLauncher.release.xcconfig"; path = "Target Support Files/Pods-RectangleLauncher/Pods-RectangleLauncher.release.xcconfig"; sourceTree = "<group>"; };
-		DB0C87EA246C7DB800E282C7 /* LowerCenterCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowerCenterCalculation.swift; sourceTree = "<group>"; };
-		ED6727649932DC7E44F5F88D /* Pods-RectangleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RectangleTests.debug.xcconfig"; path = "Target Support Files/Pods-RectangleTests/Pods-RectangleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98FE8974246E79A600871535 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/Main.strings"; sourceTree = "<group>"; };
+		98FE8975246E79A600871535 /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/Main.strings"; sourceTree = "<group>"; };
+		98FE8976246E79C400871535 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		98FE8977246E79C400871535 /* zh-Hant-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-HK"; path = "zh-Hant-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		DB796E282472E92D007E32CF /* LowerCenterCalculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowerCenterCalculation.swift; sourceTree = "<group>"; };
 		F2D8480CC730811C953FC1B6 /* Pods_RectangleLauncher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectangleLauncher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F1FB66CBFB958E8BB16DCD /* Pods_RectangleMAS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RectangleMAS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -248,8 +251,6 @@
 				1ECC911CC9954193BA1C097E /* Pods-Rectangle.debug.xcconfig */,
 				0AB2F25121875BD907CC5F16 /* Pods-Rectangle.release.xcconfig */,
 				37E6A468EC2093769C23B920 /* Pods-RectangleLauncher.debug.xcconfig */,
-				C80E308019BEC7EF13E21838 /* Pods-RectangleLauncher.release.xcconfig */,
-				ED6727649932DC7E44F5F88D /* Pods-RectangleTests.debug.xcconfig */,
 				551F745364811A9EA2998464 /* Pods-RectangleTests.release.xcconfig */,
 			);
 			path = Pods;
@@ -283,7 +284,7 @@
 		982140E922B7DA3100ABFB3F /* WindowCalculation */ = {
 			isa = PBXGroup;
 			children = (
-				DB0C87EA246C7DB800E282C7 /* LowerCenterCalculation.swift */,
+				DB796E282472E92D007E32CF /* LowerCenterCalculation.swift */,
 				9824704822B189250037B409 /* WindowCalculation.swift */,
 				9824705022B28D7A0037B409 /* LeftRightHalfCalculation.swift */,
 				9821402022B3884600ABFB3F /* BottomHalfCalculation.swift */,
@@ -569,6 +570,8 @@
 				"zh-Hans",
 				"zh-Hant",
 				ko,
+				"zh-Hant-TW",
+				"zh-Hant-HK",
 			);
 			mainGroup = 9824700022AF9B7D0037B409;
 			productRefGroup = 9824700A22AF9B7D0037B409 /* Products */;
@@ -725,6 +728,7 @@
 				98C2755E231FF6A9009B9292 /* EventMonitor.swift in Sources */,
 				9821406022B3EFB200ABFB3F /* Defaults.swift in Sources */,
 				9821403122B38A0500ABFB3F /* TopHalfCalculation.swift in Sources */,
+				DB796E292472E92D007E32CF /* LowerCenterCalculation.swift in Sources */,
 				9824704B22B189250037B409 /* StandardWindowMover.swift in Sources */,
 				9821402722B3888100ABFB3F /* ChangeSizeCalculation.swift in Sources */,
 				98B3559823CE025700E410E0 /* CenteringFixedSizedWindowMover.swift in Sources */,
@@ -732,7 +736,7 @@
 				9824703B22B139780037B409 /* CUtil.swift in Sources */,
 				988D067D22EB4E17004EABD7 /* AlmostMaximizeCalculation.swift in Sources */,
 				98C1008C2305F1FA006E5344 /* SubsequentExecutionMode.swift in Sources */,
-				DB0C87EB246C7DB800E282C7 /* LowerCenterCalculation.swift in Sources */,
+				DB0C87EB246C7DB800E282C7 /* (null) in Sources */,
 				985B9BF922BB6F5100A2E8F0 /* MessageView.swift in Sources */,
 				988D066722EB4CC0004EABD7 /* LastTwoThirdsCalculation.swift in Sources */,
 				9824703F22B13FBC0037B409 /* ScreenDetection.swift in Sources */,
@@ -804,6 +808,8 @@
 				98ED1C752393DEF200CD0955 /* zh-Hans */,
 				98ED1C772393DEFC00CD0955 /* zh-Hant */,
 				98ED1C792393DF0900CD0955 /* ko */,
+				98FE8975246E79A600871535 /* zh-Hant-TW */,
+				98FE8977246E79C400871535 /* zh-Hant-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -826,6 +832,8 @@
 				98ED1C742393DEF200CD0955 /* zh-Hans */,
 				98ED1C762393DEFC00CD0955 /* zh-Hant */,
 				98ED1C782393DF0900CD0955 /* ko */,
+				98FE8974246E79A600871535 /* zh-Hant-TW */,
+				98FE8976246E79C400871535 /* zh-Hant-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -860,7 +868,6 @@
 		};
 		9821405622B3EBDA00ABFB3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C80E308019BEC7EF13E21838 /* Pods-RectangleLauncher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RectangleLauncher/RectangleLauncherRelease.entitlements;
@@ -1009,7 +1016,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Rectangle/Info.plist;
@@ -1018,7 +1025,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MARKETING_VERSION = 0.28;
+				MARKETING_VERSION = 0.29.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1035,7 +1042,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 32;
+				CURRENT_PROJECT_VERSION = 34;
 				DEVELOPMENT_TEAM = XSYZ3E4B7D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Rectangle/Info.plist;
@@ -1044,7 +1051,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MARKETING_VERSION = 0.28;
+				MARKETING_VERSION = 0.29.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1054,7 +1061,6 @@
 		};
 		9824702822AF9B7E0037B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED6727649932DC7E44F5F88D /* Pods-RectangleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
