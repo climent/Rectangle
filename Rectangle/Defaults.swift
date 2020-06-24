@@ -31,7 +31,7 @@ class Defaults {
     static let sizeOffset = FloatDefault(key: "sizeOffset")
     static let unsnapRestore = OptionalBoolDefault(key: "unsnapRestore")
     static let curtainChangeSize = OptionalBoolDefault(key: "curtainChangeSize")
-//    static let centerWindowBehavior = FloatDefault(key: "centerWindowBehavior")
+    static let relaunchOpensMenu = BoolDefault(key: "relaunchOpensMenu")
 }
 
 class BoolDefault {
